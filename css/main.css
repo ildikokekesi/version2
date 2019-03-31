@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200&subset=latin-ext');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+/* */
+.first-contact {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin: 0;
+
+}
+.mobil {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 50px 0 0;
+}
+.mobil:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.mail {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.mail:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* NAV */
+.nav {
+    background-color: rgb(255, 130, 30);
+}
+.nav-link {
+    padding: 20px 20px 20px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-shadow: 1px 1px white;
+}
+
+.nav-link:hover {
+    padding: 20px 20px 20px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-shadow: 1px 1px white;
+    background-color: rgb(255, 200, 0);
+}
+
+#h1-first-page {
+    font-size: 50px;
+}
+
+
+
+
+.jumbotron.jumbotron-fluid {
+    background-image: url(../img/blur-bulb-close-up-371906.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    height: 500px;
+}
+.nonstop {
+    background-color: rgba(255, 130, 30, .8);
+    padding: 3px 5px 3px 5px;
+    
+}
+.mobil1 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 50px 0 0;
+}
+.mobil1:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 50px 0 0;
+    text-decoration: none;
+}
+p {
+    margin-bottom: 0;
+}
