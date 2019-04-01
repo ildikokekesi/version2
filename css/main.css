@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:600&subset=latin-ext');
 
-html, body {
-    background-size: 100%;
-    
-}
-
 body {
     font-family: 'Muli', sans-serif;
 }
@@ -86,11 +81,6 @@ h1#h1-first-page {
     padding: 20px 0 20px 0;
     color: rgb(255, 130, 30);
     text-align: center;
-    background-color: rgba(0, 0, 0, .7);
-}
-
-h1 {
-    padding: 
 }
 
 span.nonstop {
@@ -119,7 +109,7 @@ p {
 /* --------------- CARD --------------- */
 .card {
     border: solid 2px rgb(255, 130, 30);
-    height: 350px;
+    height: 400px;
 }
 
 .card:hover {
@@ -193,6 +183,7 @@ div.container-fluid.call {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
 
 
 /* --------------- Footer --------------- */
