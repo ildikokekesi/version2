@@ -2,6 +2,7 @@
 
 html, body {
     background-size: 100%;
+    
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 
 .container-fluid {
     padding: 0;
+    overflow: hidden;
 }
 
 /* --------------- First contact --------------- */
@@ -106,6 +108,7 @@ p {
 /* --------------- CARD --------------- */
 .card {
     border: solid 2px rgb(255, 130, 30);
+    height: 350px;
 }
 
 .card:hover {
@@ -126,14 +129,29 @@ div.col-12.col-md-6.col-lg-4.col-xl-3 {
 }
 
 
+/* --------------- Advice-section --------------- */
+div.container-fluid.advice-section {
+    background-color: rgb(255, 130, 30);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    height: 400px;
+    margin: 32px 0 0 0; 
+    font-size: 25px;
+}
 
+div.col-12.col-lg-6 {
+    margin: 10px 0 10px 0x;
+    padding: 10px 0 10px 0;
+}
 
+img.image-electr {
+    align-items: center;
+    justify-items: 
+}
 
-
-
-
-
-
+h3 {
+    font-size: 30px;
+}
 
 
 
