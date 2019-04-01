@@ -7,13 +7,17 @@ body {
 .container-fluid {
     padding: 0;
 }
-/* */
+
+/* --------------- First contact --------------- */
 .first-contact {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 10px 0 10px 0;
     text-align: center;
     margin: 0;
+}
+div.col-12.col-md-4.col-sm-4 {
+    padding: 0;
 }
 .mobil {
     color: rgb(255, 255, 255);
@@ -23,6 +27,7 @@ body {
 .mobil:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    padding: 0 50px 0 0;
 }
 .mail {
     color: rgb(255, 255, 255);
@@ -33,79 +38,68 @@ body {
     text-decoration: none;
 }
 
-/* NAV */
+
+/* --------------- NAV --------------- */
 .nav {
     background-color: rgb(255, 130, 30);
 }
 .nav-link {
-    padding: 20px 20px 20px 20px;
+    padding: 15px 15px 15px 15px;
     color: rgb(0, 0, 0);
-    font-size: 22px;
+    font-size: 20px;
     text-shadow: 1px 1px white;
 }
 
 .nav-link:hover {
-    padding: 20px 20px 20px 20px;
+    padding: 15px 15px 15px 15px;
     color: rgb(0, 0, 0);
-    font-size: 22px;
+    font-size: 20px;
     text-shadow: 1px 1px white;
     background-color: rgb(255, 200, 0);
 }
 
-#h1-first-page {
-    font-size: 35px;
-    text-shadow: 1px 1px rgb(255, 255, 255);
-    color: rgb(255, 130, 30);
-    padding: 0 0 30px 0;
-    text-align: center;
-}
 
-
-
-
+/* --------------- JUMBOTRON --------------- */
 .jumbotron.jumbotron-fluid {
     background-image: url(../img/blur-bulb-close-up-371906.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: rgb(255, 255, 255);
 }
 
-
+h1#h1-first-page {
+    font-size: 35px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    padding: 0 0 30px 0;
+    color: rgb(255, 130, 30);
+    text-align: center;
+}
 
 span.nonstop {
     background-color: rgba(0, 0, 0, .7);
     padding: 3px 5px 3px 5px;
     text-shadow: 2px 2px rgb(255, 130, 30);
     font-size: 30px;
+    color: rgb(255, 255, 255);
         
 }
+
 p {
     text-align: center;
+    margin-bottom: 0;
 }
-a.mobil1 {
-    padding: 0;
-}
+
 .mobil1 {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 0 50px 0 0;
 }
 .mobil1:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 0 50px 0 0;
-    text-decoration: none;
-}
-p {
-    margin-bottom: 0;
-}
-
-div.col-12.col-md-4 {
-    padding: 0;
 }
 
 
+/* --------------- CARD --------------- */
 .card {
     border: solid 2px rgb(255, 130, 30);
 }
@@ -119,15 +113,26 @@ div.col-12.col-md-4 {
     weight: 150px;
 }
 
-.title-h2 {
-    text-align: center;
-    padding: 30px 0 30px 0;
-    text-decoration: underline;
-}
-
 h5.card-title {
     text-align: center;
 }
+
+div.col-12.col-lg-6 {
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 576px) {
 
