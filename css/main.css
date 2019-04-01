@@ -14,7 +14,6 @@ body {
     padding: 10px 0 10px 0;
     text-align: center;
     margin: 0;
-
 }
 .mobil {
     color: rgb(255, 255, 255);
@@ -54,7 +53,7 @@ body {
 }
 
 #h1-first-page {
-    font-size: 50px;
+    font-size: 35px;
     text-shadow: 1px 1px rgb(255, 255, 255);
     color: rgb(255, 130, 30);
     padding: 0 0 30px 0;
@@ -69,8 +68,6 @@ body {
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
-    text-align: center;
-    height: 450px;
 }
 
 
@@ -79,7 +76,7 @@ body {
     background-color: rgba(0, 0, 0, .7);
     padding: 3px 5px 3px 5px;
     text-shadow: 2px 2px rgb(255, 130, 30);
-    font-size: 40px;
+    font-size: 35px;
 
         
 }
