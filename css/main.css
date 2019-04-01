@@ -46,7 +46,7 @@ div.col-12.col-md-4.col-sm-4 {
 
 
 /* --------------- NAV --------------- */
-.nav {
+.navbar.navbar-expand-lg {
     background-color: rgb(255, 130, 30);
 }
 .nav-link {
@@ -64,6 +64,13 @@ div.col-12.col-md-4.col-sm-4 {
     background-color: rgb(255, 200, 0);
 }
 
+.menu-button {
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    border: none;
+}
+.navbar-toggler {
+    border: none;
+}
 
 /* --------------- JUMBOTRON --------------- */
 .jumbotron.jumbotron-fluid {
@@ -130,31 +137,35 @@ div.col-12.col-md-6.col-lg-4.col-xl-3 {
 
 
 /* --------------- Advice-section --------------- */
-div.container-fluid.advice-section {
-    background-color: rgb(255, 130, 30);
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px rgb(0, 0, 0);
-    height: 400px;
+div.col-12.col-lg-6.my-auto {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    height: 358px;
     margin: 32px 0 0 0; 
     font-size: 25px;
 }
 
-div.col-12.col-lg-6 {
-    margin: 10px 0 10px 0x;
-    padding: 10px 0 10px 0;
-}
-
-img.image-electr {
-    align-items: center;
-    justify-items: 
+.list1 {
+    padding: 20px 0 40px 40px;
 }
 
 h3 {
     font-size: 30px;
 }
 
+section.advice {
+    margin: 30px 0 30px 0;
+    background-color: rgb(178, 174, 171);
+    padding: 30px 0 30px 0;
+}
 
-
+/* --------------- Footer --------------- */
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+}
 
 @media (min-width: 576px) {
 

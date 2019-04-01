@@ -26,7 +26,12 @@
         </div>
 
     <!-- NAV -->
-        <ul class="nav justify-content-center">
+    <nav class="navbar navbar-expand-lg justify-content-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" >
+              <p class="menu-button">Menü</p>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" href="index.html">Főoldal</a>
                 </li>
@@ -43,14 +48,15 @@
                         <a class="nav-link" href="#">Kapcsolat</a>
                 </li>
         </ul>
-
+        </div>
+</nav>
     <!-- JUMBOTRON -->
         <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
                     <h1 id="h1-first-page">Villanyszerelés Dorog vonzáskörzetében</h1>
-                        <p><span class="nonstop">NONSTOP hibaelhárítás</span> <br><span class="nonstop">0-24</span></p>
+                        <p><span class="nonstop">0-24</span> <br><span class="nonstop">NONSTOP hibaelhárítás</span></p>
                         <p><span class="nonstop"><a class="mobil1" href="tel:+36307146732">Tel: 30/714-6732</span></a></p>
                 </div>
             </div>
@@ -107,11 +113,12 @@
       </div>
     
     <!-- Advice-section -->
-      <div class="container-fluid advice-section">
-        <div class="row">
-            <div class="col-12 col-lg-6">
+    <section class="advice">
+      <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 my-auto">
                 <h3>Néhány példa, hogy mikor hívjon villanyszerelőt:</h3>
-                <ul>
+                <ul class="list1">
                     <li>ha égett műanyagszagot érez látszólag ok nélkül,</li>
                     <li>ha ráz a mosógép,</li>
                     <li>ha a biztosíték folyton lekapcsol,</li>
@@ -120,19 +127,25 @@
                 </ul>
             </div>
             <div class="col-12 col-lg-6">
-                <img src="img/adult-attractive-beautiful-159453.jpg" alt="" class="image-electr">
+                <img src="img/adult-attractive-beautiful-159453.jpg" alt="" class="img-fluid">
             </div>
-        </div>
+            </div>
       </div>
+    </section>
 
 
 
 
 
 
-
-
-
+<!-- FOOTER -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <p class="footer">&copy; COPYRIGHT Feszültségmester - Minden jog fenntartva. </p>
+        </div>
+    </div>
+</div>
 
 
 
