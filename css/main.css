@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Muli:600&subset=latin-ext');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 .container-fluid {
@@ -41,20 +41,23 @@ body {
 .nav-link {
     padding: 20px 20px 20px 20px;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 22px;
     text-shadow: 1px 1px white;
 }
 
 .nav-link:hover {
     padding: 20px 20px 20px 20px;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 22px;
     text-shadow: 1px 1px white;
     background-color: rgb(255, 200, 0);
 }
 
 #h1-first-page {
     font-size: 50px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    color: rgb(255, 130, 30);
+    padding: 0 0 30px 0;
 }
 
 
@@ -67,13 +70,18 @@ body {
     background-position: center;
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 30px;
-    height: 500px;
+    height: 450px;
 }
+
+
+
 .nonstop {
-    background-color: rgba(255, 130, 30, .8);
+    background-color: rgba(0, 0, 0, .7);
     padding: 3px 5px 3px 5px;
-    
+    text-shadow: 2px 2px rgb(255, 130, 30);
+    font-size: 40px;
+
+        
 }
 .mobil1 {
     color: rgb(255, 255, 255);
@@ -90,11 +98,35 @@ p {
     margin-bottom: 0;
 }
 
-div.col-12.col-md-6 {
+div.col-12.col-md-4 {
     padding: 0;
 }
 
 
+.card {
+    border: solid 2px rgb(255, 130, 30);
+}
+
+.card:hover {
+    border: solid 2px rgb(255, 200, 0);
+}
+
+.card-img-top {
+    height: 150px;
+    weight: 150px;
+}
+
+.title-h2 {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    text-decoration: underline;
+}
+
+h5.card-title {
+    text-align: center;
+}
+
 @media (min-width: 576px) {
 
 }
+0
