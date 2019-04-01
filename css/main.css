@@ -159,6 +159,38 @@ section.advice {
     padding: 30px 0 30px 0;
 }
 
+/* --------------- CALL-SECTION --------------- */
+
+div.container-fluid.call {
+    background-color: rgb(255, 130, 30);
+}
+.call-text {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 35px;
+    padding: 15px 0 0 0;
+
+}
+.call-number {
+    color: rgb(255, 200, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 35px;
+    padding: 10px 0 10px 0;
+    border: 2px solid rgb(178, 174, 171);
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 0 30px 0;
+}
+.mobil-call-number {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.mobil-call-number:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
 /* --------------- Footer --------------- */
 .footer {
     background-color: rgb(0, 0, 0);
