@@ -83,9 +83,14 @@ div.col-12.col-md-4.col-sm-4 {
 h1#h1-first-page {
     font-size: 35px;
     text-shadow: 1px 1px rgb(255, 255, 255);
-    padding: 0 0 30px 0;
+    padding: 20px 0 20px 0;
     color: rgb(255, 130, 30);
     text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+h1 {
+    padding: 
 }
 
 span.nonstop {
@@ -93,8 +98,7 @@ span.nonstop {
     padding: 3px 5px 3px 5px;
     text-shadow: 2px 2px rgb(255, 130, 30);
     font-size: 30px;
-    color: rgb(255, 255, 255);
-        
+    color: rgb(255, 255, 255);  
 }
 
 p {
@@ -127,7 +131,7 @@ p {
     weight: 150px;
 }
 
-h5.card-title {
+h2.card-title {
     text-align: center;
 }
 
