@@ -197,7 +197,57 @@ h4 {
     padding: 5px 0 5px 0;
 }
 
-@media (min-width: 576px) {
 
+/* --------------- ajanlatkeres.html --------------- */
+div.container-fluid.form {
+    background-image: url(../img/blur-bulb-close-up-371906.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-0
+
+
+
+/* Button */
+.btn.btn-primary.btn-lg {
+    background-color: rgb(255, 130, 30);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    box-shadow: 2px 2px rgb(126, 118, 111);
+    margin: 10px 0 20px 0;
+    border: solid 2px rgb(255, 200, 0);
+}
+
+.btn.btn-primary.btn-lg:active {
+    background-color: rgb(255, 200, 0);
+    color: rgb(255, 130, 30);
+    text-shadow: 1px 1px rgb(126, 118, 111);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    box-shadow: 2px 2px rgb(126, 118, 111);
+    margin: 10px 0 20px 0;
+    border: solid 2px rgb(255, 130, 30);
+}
+
+.container-1 {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* H1 tag */
+
+.mb-5.ajanlatkeres {
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    
+}
+span.span-ajanlat {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 3px 3px 3px 3px;
+}
+
+/* Form */
+.form1 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, .7);
+}
