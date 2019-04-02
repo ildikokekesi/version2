@@ -23,12 +23,12 @@ div.col-12.col-md-4.col-sm-4 {
 .mobil {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 0 50px 0 0;
+    padding: 0 0 0 0;
 }
 .mobil:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 0 50px 0 0;
+    padding: 0 0 0 0;
 }
 .mail {
     color: rgb(255, 255, 255);
