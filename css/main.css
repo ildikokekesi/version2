@@ -250,4 +250,5 @@ span.span-ajanlat {
 .form1 {
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, .7);
+    padding: 1px 3px 1px 3px;
 }
