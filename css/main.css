@@ -308,6 +308,12 @@ a.mail-c:hover {
     text-align: center;
 }
 
+/* ---------- impresszum.html ---------- */
+td {
+    padding: 3px 0 3px 0;
+    font-size: 1.5rem;
+}
+
 
 
 /*------------------------------*/
