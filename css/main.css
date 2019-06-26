@@ -195,6 +195,9 @@ h4 {
     color: rgb(255, 255, 255);
     font-size: 15px;
     padding: 5px 0 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
