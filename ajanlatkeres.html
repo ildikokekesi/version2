@@ -48,9 +48,6 @@
                 <li class="nav-item">
                         <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="impresszum.html">Impresszum</a>
-                   </li>
         </ul>
         </div>
     </nav>
@@ -64,25 +61,33 @@
                     <h1 class="mb-5 ajanlatkeres"><span class="span-ajanlat">Ajánlatkérés:</span></h1>
                     <form class="mb-4" method="POST" action="mailto:bezzeggabor1@gmail.com">
                         <div class="form-group">
-                            <label for="name" class="form1">Név:*</label>
+                            <label for="name" class="form-name">Név:*</label>
                             <input class="form-control" type="text" id="name">
                         </div>
                         <div class="form-group">
-                            <label for="email" class="form1">E-mail cím:*</label>
+                            <label for="email" class="form-email">E-mail cím:*</label>
                             <input type="email" class="form-control" id="email">
                         </div>
                         <div class="form-group">
-                            <label for="mobil" class="form1">Telefonszám:</label>
+                            <label for="mobil" class="form-mobil">Telefonszám:</label>
                             <input class="form-control" type="text" id="mobil" >
                         </div>
                         <div class="form-group">
-                                <label for="object" class="form1" >Tárgy:</label>
+                                <label for="object" class="form-object" >Tárgy:</label>
                                 <input class="form-control" type="text" id="object" placeholder="Ajánlatkérés" disabled>
                             </div>
                         <div class="form-group">
-                            <label for="message-box" class="form1">Üzenet:</label>
+                            <label for="message-box" class="form-message">Üzenet:</label>
                             <textarea class="form-control" id="message-box" placeholder="Kérem adja meg az üzenetét!" rows="20"></textarea>
                         </div>
+                        <div class="form-group">
+                        <form action="upload.php" method="post" enctype="multipart/form-data">
+                            <p class="upload">Fájl feltöltése:</p>
+                            <input class="fileUpload" type="file" name="fileToUpload" id="fileToUpload">
+                        </form>
+                    </div>
+
+
                     </form>
                     </div>
         </div>
@@ -97,16 +102,14 @@
     
 <!-- FOOTER -->
 <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <p class="footer">&copy; COPYRIGHT - Minden jog fenntartva.
-                    <br>
-                <a class="privacy" target="_blank" href="#">Adatvédelmi nyilatkozat</a>
-                    <br>
-                <a class="privacy" target="_blank" href="impresszum.html">Impresszum</a> </p>
-            </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="footer">&copy; COPYRIGHT - Minden jog fenntartva. - 
+            <a class="privacy" target="_blank" href="#">Adatvédelmi nyilatkozat</a> - 
+            <a class="impressum" target="_blank" href="impresszum.html">Impresszum</a> </p>
         </div>
     </div>
+</div>
 <!-- /FOOTER -->
         
     
