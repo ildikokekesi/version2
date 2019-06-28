@@ -234,6 +234,12 @@ p.upload {
 input.fileUpload {
     
 }
+h1.mb-5.offer {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgba(0, 0, 0, .7);
+    text-align: center;
+    margin-top: 25px;
+}
 
 
 /* Button */
