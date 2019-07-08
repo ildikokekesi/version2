@@ -213,7 +213,7 @@ h4 {
     left: 0;
     right: 0;
     width: 100%;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 a.privacy {
@@ -399,9 +399,41 @@ h1.contact-header {
     font-size: 1.1rem;
 }
 
+/* --------------- adatkezelesi-tajekoztato.html --------------- */
+.h1-gdpr {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.h2-gdpr {
+    text-decoration: underline;
+    font-size: 25px;
+    padding: 30px 0 10px 0; 
+}
+
+.h3-gdpr {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.p-gdpr {
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+    text-align: left;
+    text-align: justify;
+}
+
+span.gdpr-title {
+    text-decoration: underline; 
+}
+
+
 /*------------------------------*/
 .cookiealert {
     position: fixed;
+    font-size: 15px;
     bottom: 0;
     left: 0;
     width: 100%;

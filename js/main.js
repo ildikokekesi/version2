@@ -1,48 +1,81 @@
-(function () {
-    "use strict";
+// ------------------------------ FORM VALIDATION - kapcsolat.html ------------------------------
 
-    var cookieAlert = document.querySelector(".cookiealert");
-    var acceptCookies = document.querySelector(".acceptcookies");
+// ---------- ALERT ----------
+$(function(){
+    // elemek összegíűjtése
+    let $button = $('button#button-contact');
+    let $checkbox1 = $('input#checkbox1"]');
+    let $username1 = $('input#username1');
+    let $useremail1 = $('input#useremail1');
+    let $invalidFieldlist = $('div.alert-danger ul');
+    let $alert = $('div.alert-danger');
+    let $form = $('form');
 
-    if (!cookieAlert) {
-       return;
-    }
+    // gombnyomásra reagálás
+    $button.click(function (event){
+        // alapértalmezett működés megakasztása
+        event.preventDefault();
+        
+        // nem megfelelő mezők
+        let invalidFields = [];
+        $invalidFieldlist.html('');
 
-    cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
-
-    // Show the alert if we cant find the "acceptCookies" cookie
-    if (!getCookie("acceptCookies")) {
-        cookieAlert.classList.add("show");
-    }
-
-    // When clicking on the agree button, create a 1 year
-    // cookie to remember user's choice and close the banner
-    acceptCookies.addEventListener("click", function () {
-        setCookie("acceptCookies", true, 365);
-        cookieAlert.classList.remove("show");
-    });
-
-    // Cookie functions from w3schools
-    function setCookie(cname, cvalue, exdays) {
-        var d = new Date();
-        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-        var expires = "expires=" + d.toUTCString();
-        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-    }
-
-    function getCookie(cname) {
-        var name = cname + "=";
-        var decodedCookie = decodeURIComponent(document.cookie);
-        var ca = decodedCookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) === ' ') {
-                c = c.substring(1);
-            }
-            if (c.indexOf(name) === 0) {
-                return c.substring(name.length, c.length);
-            }
+        // mezők ellenőrzése
+        // felhasználónév
+        let username1 = $username1.val();
+        if(username1.length == 0){
+            //hibás kitöltés
+            invalidFields.push('Név:');
+            $username1.removeClass('is-valid');
+            $username1.addClass('is-invalid');
+        } else {
+            // helyes kitöltés
+            $username1.addClass('is-valid');
+            $username1.removeClass('is-invalid');
         }
-        return "";
-    }
-})();
+        //jelszó
+        let useremail1 = $useremail1.val();
+        if(useremail1.lenght == 0){
+            // hibás kitöltés
+            invalidFields.push('E-mail:');
+            $useremail1.removeClass('is-valid');
+            $useremail1.addClass('is-invalid');
+        } else {
+            // helyes kitöltés
+            $useremail1.addClass('is-valid');
+            $useremail1.removeClass('is-invalid');
+        }
+        
+        // ÁSZF
+        let isChecked = $checkbox1.prop('checked');
+        if(!isChecked){
+            // hibás kitöltés
+            invalidFields.push('ÁSZF');
+            $checkbox1.addClass('is-invalid');  
+            $checkbox1.removeClass('is-valid');  
+        } else {
+            // helyes kitöltés
+            $checkbox1.addClass('is-valid');
+            $checkbox1.removeClass('is-invalid');
+        }
+
+        // sikeres-sikertelen elágazás
+        if(invalidFields.length == 0) {
+            // sikeres kitöltés
+            $form.hide();
+            $alert.hide();
+        } else {
+            // sikertelen kitöltés
+            $alert.show();
+            // hibák kiírása
+            $.each(invalidFields, function(index, field){
+                $invalidFieldlist.append('<li>' + field + '</li>');
+            });
+        }
+    });
+});
+
+
+
+
+

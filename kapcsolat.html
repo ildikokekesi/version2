@@ -59,33 +59,43 @@
                 <div class="row mx-auto">
                     <div class="col-12 col-md-6">
                             <h2 class="mb-5 ajanlatkeres"><span class="span-ajanlat">Amennyiben kérdése merülne fel, keressen bizalommal!</span></h2>
-                                <form class="mb-4" method="POST" action="mailto:bezzeggabor1@gmail.com">
+                                
+                            <form class="mb-4">
                                         <div class="form-group">
-                                            <label for="name" class="form1">Név:*</label>
-                                            <input class="form-control" type="text" id="name">
+                                            <label for="username1" class="form1">Név:*</label>
+                                            <input class="form-control" type="text" id="username1">
                                         </div>
                                         <div class="form-group">
-                                            <label for="email" class="form1">E-mail cím:*</label>
-                                            <input type="email" class="form-control" id="email">
+                                            <label for="useremail1" class="form1">E-mail cím:*</label>
+                                            <input type="email" class="form-control" id="useremail1">
                                         </div>
                                         <div class="form-group">
-                                            <label for="mobil" class="form1">Telefonszám:</label>
-                                            <input class="form-control" type="text" id="mobil" >
+                                            <label for="usermobil1" class="form1">Telefonszám:</label>
+                                            <input class="form-control" type="text" id="usermobil1" >
                                         </div>
                                         <div class="form-group">
-                                            <label for="message-box" class="form1">Üzenet:</label>
-                                            <textarea class="form-control" id="message-box" placeholder="Kérem adja meg az üzenetét!" rows="10"></textarea>
+                                            <label for="message-box1" class="form1">Üzenet:</label>
+                                            <textarea class="form-control" id="message-box1" placeholder="Kérem adja meg az üzenetét!" rows="10"></textarea>
                                         </div>
-                                </form>
-                                    <div class="container">
+                                
                                         <div class="form-group form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Az <a href="adatvedelmi-tajekoztato.html">Adatvédelmi tájékoztatót</a> elolvastam és elfogadom.</label>
+                                            <input type="checkbox" class="form-check-input" id="checkbox1">
+                                            <label class="form-check-label" for="checkbox1">Az <a href="adatkezelesi-tajekoztato.html">Adatkezelési tájékoztatót</a> elolvastam és elfogadom.</label>
                                           </div>
-                                    </div>
+                                    
+                                    <div class="alert alert-danger alert-dismissible fade show" role="alert" style="display: none;">
+                                        <strong>Az alábbi mezők nincsenek kitöltve!</strong>
+                                        <ul></ul>
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                            
                                     <div class="container-1">
-                                            <button type="button" class="btn btn-primary btn-lg">Elküldöm az üzenetem</button>
+                                            <button type="submit" class="btn btn-primary btn-lg" id="button-contact">Elküldöm az üzenetem</button>
                                     </div>
+                                </form>
+                                    
                         </div>
                         <div class="col-12 col-md-6">
                                 <div class="card contact">
@@ -119,21 +129,29 @@
         <div class="col-12">
             <p class="footer">&copy; COPYRIGHT - Minden jog fenntartva.
             <br>
-            <a class="privacy" target="_blank" href="adatvedelmi-tajekoztato.html">Adatvédelmi tájékoztató</a> - 
+            <a class="privacy" target="_blank" href="adatkezelesi-tajekoztato.html">Adatkezelési tájékoztató</a> - 
             <a class="impressum" target="_blank" href="impresszum.html">Impresszum</a> </p>
         </div>
     </div>
 </div>
 <!-- /FOOTER -->
-    
-    
-    
-    
-    
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      </body>
-    </html>
+        
+<!-- COOKIE -->
+<div class="alert text-center cookiealert" role="alert">
+    <p>Ez a weboldal sütiket használ, látogatásával és használatával ezt elfogadja.</p>
+    <p>A sütikről az <a class="cookie" href="adatkezelesi-tajekoztato.html" target="_blank">Adatkezelési tájékoztatóban</a> olvashat bővebben.</p>
+    <button type="button" class="btn btn-primary btn-sm acceptcookies" class="cookieclose" aria-label="Close">
+        Megértettem.
+    </button>
+  </div>
+  <!-- /COOKIE -->
+      
+          <!-- Optional JavaScript -->
+          <script src="js/main.js"></script>
+          <script src="js/cookie.js"></script>
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </body>
+      </html>
